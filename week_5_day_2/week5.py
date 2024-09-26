@@ -29,12 +29,20 @@
 # # print(fruits.index("apple")) # to find the number order of the element
 # print(fruits)
 
-cars = ["Ford", "Volvo", "BMW"]
+# cars = ["Ford", "Volvo", "BMW"]
 
-for car in cars:
-    requestcar = input("Enter a car: ")
-    cars.append(requestcar)
-    print(f"The car in the list area: {car}")
-    if len(cars) > 10:
-        print("You have reached the maximum number of cars")
-        break
+# for car in cars:
+#     requestcar = input("Enter a car: ")
+#     cars.append(requestcar)
+#     print(f"The car in the list area: {car}")
+#     if len(cars) > 10:
+#         print("You have reached the maximum number of cars")
+#         break
+
+# challenge
+# create a list of friends
+friends = ["Dom"]
+friends.append = ["Gerardo"]
+friends.append = ["Sebastian"]
+friends.append = ["Juan"]
+friends.append = ["Hector"]
