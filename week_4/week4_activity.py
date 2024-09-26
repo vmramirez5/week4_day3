@@ -46,21 +46,51 @@
 #################################Extracting Sub-Strings###################################
 # Extracting Sub-Strings Practice #1
 # Extract the first word of the following sentence using slicing, and display it on the screen:
-# "Controlling complexity is the essence of programming"
-text = "Controlling complexity is the essence of programming"
-# Hint: "Controlling" is 11 characters long.
-print(text[0:11])
-# Extracting Sub-Strings Practice #2
-# Take every third character starting from the ninth to the end of the sentence, and print the result.
-text2 = "Never trust a computer you can't throw out a window"
-print(text2[9:-1:3])
+# # "Controlling complexity is the essence of programming"
+# text = "Controlling complexity is the essence of programming"
+# # Hint: "Controlling" is 11 characters long.
+# print(text[0:11])
+# # Extracting Sub-Strings Practice #2
+# # Take every third character starting from the ninth to the end of the sentence, and print the result.
+# text2 = "Never trust a computer you can't throw out a window"
+# print(text2[9:-1:3])
 
-# Extracting Sub-Strings Practice #3
-# Reverses the position of all the characters in the following sentence and displays the result on the screen.
-text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-print(text3[-1:0])
+# # Extracting Sub-Strings Practice #3
+# # Reverses the position of all the characters in the following sentence and displays the result on the screen.
+# text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
+# print(text3 [::-1])
 
 ##################################### String Methods#################################
+# uppercase method in python
+# sentence = "Especially in electronic communications, is writing in all caps is equivalent to yelling"
+# print(sentence.upper())
+# # lower case method
+# sentence2 = "ESPN IS THE BEST SPORTS NETWORK"
+# print(sentence2.lower())
+# print(sentence.find("communications"))
+# print(sentence[25:39].upper())
+# print(sentence.replace("electronic", "ELECTRONIC"))
+# new_sentence = "if the implementationm is hard to explain, it maight be a bad idea."
+# print(new_sentence.replace("hard", "easy").replace("bad", "good"))
+
+# #join method
+# word_list = ["simple","is","better","than","complex"]
+# # print(word_list)
+# joined_sentence = " ".join(word_list)
+# new_word_list = ["apple","banana","mango","cherry","watermelon"]
+# joined_sentence2 = "_".join(new_word_list)
+# print(joined_sentence2)
+# #split method
+# sentence3 = "I am a python programmer"
+# print(sentence3.split()) #by default, this method splits the sentnce into a list of words seperated by a comma
+# print(sentence3.split(",")) # takes out commas or any thing that is in quotations
+# print(sentence3.split("p"))
+
+result = "repitition" * 15
+print(result)
+paragraph = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation"
+print(paragraph.replace("people", "citizens").replace(" ","").replace(",","😊"))
+
 # String Methods Practice #1
 #slieds 12 -16
 # Print the following text in uppercase, using the specific string method:
